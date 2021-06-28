@@ -1,11 +1,14 @@
-import React from 'react'
+/* eslint-disable prettier/prettier */
+import React from "react"
 
 const BtnToTop = () => {
-    return (
-        <>
-        <a class="scrollToTop"><i class="fas fa-chevron-up"></i></a>
-        </>
-    )
+  return (
+    <>
+      <a className="scrollToTop">
+        <i className="fas fa-chevron-up"></i>
+      </a>
+    </>
+  )
 }
 
 export default BtnToTop
